@@ -2,6 +2,12 @@ discordwebhook
 ==============
 An example of using a Discord webhook with a basic HTML form.
 
+Type your message in your html file:
+![HTML form](img/html_form.png)
+
+See your message in discord:
+![Discord message](img/discord.png)
+
 Who
 ---
 This example is meant for anyone who wants to practice basic HTML.  It uses an HTML form to send a message in a discord channel, so it's also useful for anyone who wants that to happen in their discord server.
