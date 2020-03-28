@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<style type="text/css">
+			label {
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Discord Webhook Example</h1>
+		<p>This html form allows you to post to discord.  
+		Type a message and press <em>Enter</em> or push the <em>post</em> button.</p>
+		<!-- 
+	  		This form doesn't work yet!  If we send the form, it will just reload the page.
+
+			In order to make the form work, we have to tell it to send its information to
+			discord.  To do that, we fill in the "action" attribute below with the webhook.
+
+			Get the webhook address (very long with lots of numbers and letters) from your
+			discord admin.
+			To learn more about how HTML forms work, read this documentation:
+			https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
+
+			After you add the action, hitting "post" should send the message to discord
+		-->
+		<form 
+			action=""
+			method="POST"
+		>
+			<label for="username-input">Username</label>
+			<select id="username-input" type="select" name="username" disabled >
+				<option value="Webhook Example">Webhook Example</option>
+			</select>
+			<label for="content-input">Message</label>
+			<input id="content-input" type="text" name="content" required />
+			<input type="submit" name="send" value="post" />
+		</form>
+	</body>
+</html>
+
