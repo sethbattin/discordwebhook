@@ -15,8 +15,8 @@ This example is meant for anyone who wants to practice basic HTML.  It uses an H
 What
 ----
 Following this example requires only two things:
-1. A discord server with channel that has a webhook.  Check out [that, help is available in this github repository's wiki.
-2. A text editor.  This example uses a single html file to send data to discord, and it is easy to edit with any program that allows typing.  The content may be incorporated into a much more complicated website, but that is beyond the scope of this example.
+1. A discord server with channel that has a webhook.  It may require help from a server admin; see [this guide about creating a webhook](https://github.com/Akizo96/de.isekaidev.discord.wbbBridge/wiki/How-to-get-Webhook-ID-&-Token).
+2. A text editor.  This example uses a single html file to send data to discord, and it is easy to edit with any program that allows typing.
 
 How
 ---
