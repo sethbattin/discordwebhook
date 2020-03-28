@@ -20,5 +20,13 @@ Following this example requires only two things:
 
 How
 ---
-To follow this example step by step, start with the wiki page [Post your first message](https://github.com/sethbattin/discordwebhook/wiki/Post-Your-First-Message).  To read the complete example, see [the html file](index.html).
+
+### Step 1: First post
+To follow this example step by step, start by downloading [the step 1 html file](step1.html).  It will show us an almost-working HTML form that submits a message to discord.
+
+### Step 2: New form who dis?
+After the form is working, we can change it further.  Download [the step 2 html file](step2.html).  With this, we'll change the name attached to the message that appears in discord.
+
+### Step 3: 1000 words
+Now that we can control what we say and who says it, let's also upload a file!  (Coming Soon)
 
